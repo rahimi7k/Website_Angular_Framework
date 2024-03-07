@@ -1,0 +1,48 @@
+{
+	"name": "website",
+	"version": "1.0.0",
+	"scripts": {
+		"ng": "ng",
+		"start": "ng serve",
+		"build": "ng build",
+		"watch": "ng build --watch --configuration development",
+		"postbuild": "gulp compress",
+		"test": "ng test"
+	},
+	"private": true,
+	"dependencies": {
+		"@angular/animations": "14.2.0",
+		"@angular/common": "14.2.0",
+		"@angular/compiler": "14.2.0",
+		"@angular/core": "14.2.0",
+		"@angular/forms": "14.2.0",
+		"@angular/platform-browser": "14.2.0",
+		"@angular/platform-browser-dynamic": "14.2.0",
+		"@angular/router": "14.2.0",
+		"crypto-js": "^4.1.1",
+		"rxjs": "7.5.6",
+		"tslib": "2.4.0",
+		"zone.js": "0.11.8"
+	},
+	"devDependencies": {
+		"@angular-devkit/build-angular": "14.2.0",
+		"@angular/cli": "14.2.0",
+		"@angular/compiler-cli": "14.2.0",
+		"@types/crypto-js": "^4.1.1",
+		"@types/jasmine": "~4.0.0",
+		"gulp": "^4.0.2",
+		"gulp-gzip": "^1.4.2",
+		"jasmine-core": "~4.1.0",
+		"karma": "~6.3.0",
+		"karma-chrome-launcher": "~3.1.0",
+		"karma-coverage": "~2.2.0",
+		"karma-jasmine": "~5.0.0",
+		"karma-jasmine-html-reporter": "~1.7.0",
+		"typescript": "4.8.2"
+	},
+	"browser": {
+		"fs": false,
+		"path": false,
+		"os": false
+	}
+}
